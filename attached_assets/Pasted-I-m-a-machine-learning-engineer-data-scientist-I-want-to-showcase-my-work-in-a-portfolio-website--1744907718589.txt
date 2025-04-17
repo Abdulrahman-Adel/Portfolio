@@ -1,0 +1,197 @@
+I'm a machine learning engineer / data scientist. I want to showcase my work in a portfolio website that would be professional / visually appealing 
+
+here is my resume
+
+```md
+# ABDULRAHMAN ADEL IBRAHIM
+
+Data Scientist @ Value Driven Data | Bachelor of Engineering [cite: 2]
+Dubai, United Arab Emirates [cite: 2]
+
+**Contact:**
+(+971) 50 439 8923 | (+20)1146631026 (Mobile) [cite: 1] | abdulrahman.adel098@gmail.com [cite: 1]
+[Portfolio](abdulrahman-adel.github.io/Abdulrahman-Adel/) [cite: 1] | [Linkedin](www.linkedin.com/in/abdulrahman-adel) [cite: 1] | [Kaggle](Kaggle) | [Hacker Rank](Hacker Rank) | [Github](Github)
+
+---
+
+## Summary
+
+At Value Driven Data, my role as a Data Scientist combines my Computer Engineering background from Helwan University with cutting-edge machine learning and data analysis skills[cite: 2]. Our team is committed to transforming complex data into actionable insights, developing Al-powered applications, and leading technical innovations that streamline the data analytics pipeline[cite: 3]. With competencies in data analysis and web scraping, I thrive in creating machine learning and NLP models that automate and enhance data processing[cite: 4]. This focus on innovation and strategic collaboration has empowered us to drive business intelligence forward, ensuring that our solutions are both technically advanced and closely aligned with our clients' needs[cite: 5].
+
+---
+
+## WORK EXPERIENCE
+
+**Data Scientist** - Value Driven Data
+Dubai, United Arab Emirates [cite: 6] | June 2024 - Present (11 months) [cite: 6]
+
+* Driving data-driven solutions for businesses by transforming complex data into actionable insights[cite: 6].
+* Specializing in developing and implementing machine learning solutions while leading technical innovations in our data analytics pipeline[cite: 7].
+* *Key Responsibilities:* [cite: 8]
+    * Design and implement end-to-end data solutions from collection to visualization[cite: 8].
+    * Develop machine learning and NLP models to automate and enhance data analysis[cite: 8].
+    * Create Al-powered applications to improve data accessibility and business intelligence[cite: 8].
+    * Lead data visualization initiatives to communicate insights effectively[cite: 8].
+    * Manage and optimize data infrastructure using cloud-based technologies[cite: 9].
+* Led efforts to enhance the data pipeline by integrating machine learning and deep learning models to optimize business analytics and decision-making processes.
+* Developed and deployed AI-driven solutions, including product matching using sentence transformers, brand extraction through NER models, and size/counts extraction for accurate data insights.
+* Built two LLM-based chatbots on Snowflake native applications using Streamlit to enable natural language interaction with data and provide automated business analysis and recommendations.
+* Utilized Snowflake as the primary database, leveraging it for efficient data analytics to derive informed business decisions.
+* Leveraged Power BI and Astrato to create data visualizations that empower businesses with real-time insights and actionable analytics.
+* Collaborated with cross-functional teams to automate workflows and ensure seamless integration of machine learning solutions into the broader data analytics pipeline.
+* *Technical Focus:* Machine Learning, Natural Language Processing, Data Analytics, Business Intelligence, Cloud Computing[cite: 9].
+
+**Machine Learning Engineer** - OMALINE
+Riyadh, Saudi Arabia [cite: 9] | January 2024 - June 2024 (6 months) [cite: 9]
+
+* Led initiatives to enhance user experience and engagement through innovative technology and strategic collaboration[cite: 9].
+* *Highlights:* [cite: 10]
+    * Developing a dynamic search engine using Large Language Models (LLMs), significantly improving relevance[cite: 10].
+    * Engineering algorithms to optimize search result ranking, boosting user engagement[cite: 11].
+    * Orchestrating large-scale web scraping for data acquisition and model training[cite: 11].
+    * Fine-tuning LLMs for efficient processing of datasets[cite: 12].
+    * Building machine learning models for product categorization, enhancing search accuracy[cite: 12].
+    * Collaborating cross-functionally to align improvements with user needs[cite: 13].
+    * Conducting rigorous testing to ensure performance and scalability[cite: 13].
+    * Contributing to technical strategy for enhancing search capabilities[cite: 14].
+
+**Machine Learning Engineer** - Freelance (Self employed) [cite: 14]
+July 2022 - June 2024 (2 years) [cite: 14]
+
+* Developed and implemented a text scoring system using deep learning techniques to optimize evaluation processes[cite: 14].
+* Collaborated with clients to define system requirements and ensure alignment with their objectives[cite: 15].
+* Designed and deployed a specialized system for marine creature detection, contributing to research efforts[cite: 16].
+* Provided guidance and instruction to master's students on system design principles and advanced computer vision techniques[cite: 17].
+
+**Research And Development Engineer** - Iskraemeco [cite: 18]
+Cairo, Egypt [cite: 19] | October 2021 - June 2022 (9 months) [cite: 19]
+
+* Assisted in hardware design of Next Generation Smart-Grid Meter (NSGM)[cite: 19].
+* Developed C++ script for efficient data collection and transmission to cloud[cite: 20].
+* Implemented PyTorch-based deep learning model for power consumption forecasting[cite: 21].
+* Utilized variational autoencoder for non-intrusive load monitoring[cite: 21].
+* Designed algorithm for harmonics and anomaly detection, enhancing grid stability[cite: 22].
+
+**Junior Machine learning Engineer** - aprcot [cite: 23]
+Cairo, Egypt [cite: 23] | August 2021 - October 2021 (3 months) [cite: 23]
+
+* Developed Arabic Automatic Speech Recognition (ASR) prototype[cite: 23].
+* Designed Transformer-based encoder-decoder architecture[cite: 24].
+* Achieved 12% Word Error Rate (WER) on Mozilla Common Voice dataset[cite: 24].
+* Utilized Google Cloud Platform (GCP) with GPU for efficient model training[cite: 25].
+* Collaborated with development team for chatbot integration[cite: 25].
+
+**Machine Learning Researcher** - WRL Wireless Research Lab [cite: 26]
+Cairo, Egypt [cite: 26] | September 2020 - July 2021 (11 months) [cite: 26]
+
+* Developed Al-based module to detect cheating in online lab exams using mouse interaction analysis[cite: 26].
+* Employed KNN, SVC, Random Forest, Logistic Regression, XGBoost, and LightGBM algorithms for classification[cite: 27].
+* Conducted experiments validating effectiveness of approach with up to 90% accuracy using LightGBM[cite: 28].
+* Achieved 88% precision and 95% degree of separation in cheat detection[cite: 29].
+
+---
+
+## PROJECTS
+
+**Next Generation Smart-Grid Meter (NSGM)**
+*Graduation Project, Pytorch, Embedded Linux*
+*Key Contributions:*
+    * Helped with the hardware design of the smart meter[cite: 19].
+    * Wrote a C++ script to collect data from the smart meter and send it to the cloud[cite: 20].
+    * Built a deep learning model to forecast the power consumption of the connected loads[cite: 21].
+    * Used a variational autoencoder model for non-intrusive load monitoring[cite: 21].
+    * Developed an algorithm for harmonics and anomalous detection[cite: 22].
+
+**Violence Detection in YouTube Videos**
+*Tensorflow, OpenCV, FastAPI*
+* Coded vision transformer (ViT) architecture for Videos from scratch.
+* Trained the model on a diverse YouTube dataset without using pre-trained weights.
+* Achieved 85% accuracy in real-world video scenarios.
+* Implemented a FastAPI application for model deployment.
+
+---
+
+## OPEN-SOURCE CONTRIBUTIONS
+
+**OpenVINO Conjugate Transpose Operation Support**
+*Intel Corporation | Open VINO Contributor | C++, Pytest, TensorFlow, OpenVINO*
+* Implemented Conjugate Transpose operation in TensorFlow Frontend for Intel's OpenVINO.
+* Extended TF Frontend with corresponding loader for OpenVINO.
+* Handled complex tensors for compatibility with OpenVINO.
+* Conducted rigorous unit testing across various inputs.
+* Contributed to enhancing OpenVINO for Intel platform deployment.
+
+**Improve a Fixed Model k**
+*Kaggle Competition, pandas, sklearn*
+* Applied a data-centric approach, conducting comprehensive EDA to identify improvement areas.
+* Employed anomaly detection to enhance dataset quality by addressing anomalies.
+* Implemented feature selection to identify crucial features for model enhancement.
+* Mitigated outlier impact via data clipping during model training.
+* Utilized cross-validation with RMSE metric to evaluate model performance effectively.
+
+---
+
+## SKILLS
+
+* **Top Skills:** Data Analysis [cite: 1] | Web Scraping [cite: 1] | astrato [cite: 1]
+* **ML/DL Frameworks:** TensorFlow | PyTorch
+* **Data Engineering:** Data Warehousing | ETL | Data Pipelines | Cloud Computing (AWS, Azure, Google Cloud) | Containerization (Docker)
+* **Programming:** Python | C++ | Java
+* **Data Science Libraries:** Pandas | NumPy | Matplotlib | Seaborn
+* **ML Concepts:** Feature Engineering | Data Cleaning | Data Augmentation | Object-Oriented Programming (OOP) | Data Structures | Algorithms | SQL (MySQL, PostgreSQL) | Hypothesis Testing | Regression Analysis | Time Series Analysis | Classification | Clustering | Recommender Systems | Dimensionality Reduction | Variable Transformation
+* **BI & Data Warehousing:** Tableau | Snowflake (Data Warehousing) | Power BI | Astrato (Data Visualization)
+* **Advanced Topics:** Machine Learning | Deep Learning | Natural Language Processing (NLP) | Named Entity Recognition (NER) | Large Language Models (LLMs)
+* **Application Building:** Streamlit
+
+---
+
+## PUBLICATIONS
+
+* Hassan Hosny, Hadeer A., Abdulrahman A. Ibrahim, Mahmoud M. Elmesalawy, and Ahmed M. Abd El-Haleem. 2022. "An Intelligent Approach for Fair Assessment of Online Laboratory Examinations in Laboratory Learning Systems Based on Student's Mouse Interaction Behavior" *Applied Sciences* 12, no. 22: 11416. [https://doi.org/10.3390/app122211416](https://doi.org/10.3390/app122211416) [cite: 1]
+* N. E. -D. M. Mohamed, M. M. El-Dakroury. A. A. Ibrahim and G. A. Nfady. "IoT Next Generation Smart Grid Meter (NGSM) for On-Edge Household Appliances Detection Based on Deep Learning and Embedded Linux," *2023 5th Novel Intelligent and Leading Emerging Sciences Conference (NILES)*, Giza, Egypt, 2023, pp. 410-415. [https://doi.org/10.1109/NILES59815.2023.10296567](https://doi.org/10.1109/NILES59815.2023.10296567)
+
+---
+
+## ACCOMPLISHMENTS
+
+* **Smart Cities Hackathon** - Benha University (Mar 2022)
+    * Ranked 2nd in Smart Buildings Track
+    * Best Use of Geospatial Technology Award (Certified)
+    * Applied Project: "Smart Geofencing System for Monitoring Workplaces & Service Areas"
+* **Multi-Theme Climate Change Challenges Hackathon** - Helwan University (Sep 2022)
+    * Ranked 2nd in AI Solution Track (Certified)
+    * Applied Project: "Vehicles Fuel Consumption Analysis and Reduction"
+* **Kaggle Notebooks' Expert** (Aug 2023)
+    * Recognized for writing informative notebooks.
+
+---
+
+## CERTIFICATES
+
+* Computer Vision nanodegree (Udacity, 2021) (Certified) [cite: 30]
+* Deep Learning Specialization (Coursera, Aug 2020) (Certified)
+* Machine Learning Engineering for Production (MLOps) (Coursera, Dec 2023) (Certified)
+* Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization [cite: 1]
+* Machine Learning with Python (IBM Badge) [cite: 1]
+* Identify Potential Repeat Customers for Your Business [cite: 1]
+* Introduction to Machine Learning in Production [cite: 1]
+* Neural Networks and Deep Learning [cite: 1]
+
+---
+
+## EDUCATION
+
+**Helwan University Cairo** [cite: 30]
+Bachelor of Engineering - BE, Computer Engineering (September 2017 - July 2022) [cite: 30]
+
+**Udacity** [cite: 30]
+Computer Vision Nanodegree, Computer Vision (2021-2021) [cite: 30]
+
+---
+
+## LANGUAGES
+
+* Arabic: Native or Bilingual [cite: 1]
+* English: Professional Working [cite: 1]
+* German: Limited Working [cite: 1]
+```
