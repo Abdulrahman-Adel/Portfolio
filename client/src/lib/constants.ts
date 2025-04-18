@@ -116,6 +116,7 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECT_CATEGORIES: ProjectCategory[] = [
   { id: 'all', name: 'All Projects' },
+  { id: 'llm', name: 'LLM' },
   { id: 'ml', name: 'Machine Learning' },
   { id: 'dl', name: 'Deep Learning' },
   { id: 'nlp', name: 'NLP' },
@@ -125,10 +126,24 @@ export const PROJECT_CATEGORIES: ProjectCategory[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: 0,
+    title: 'PropertyGPT',
+    description: 'An AI agent leveraging LLMs and chatbot technology to assist real estate professionals with lead generation, automated market analysis, and investment insights.',
+    imageUrls: ['/assets/propertygpt.gif'],
+    technologies: ['React', 'LLM', 'Chatbot', 'Full Stack'],
+    projectUrl: '#',
+    githubUrl: '#',
+    category: 'llm'
+  },
+  {
     id: 1,
     title: 'Next Generation Smart-Grid Meter',
     description: 'Developed a deep learning model to forecast power consumption and implemented non-intrusive load monitoring using variational autoencoder.',
-    imageUrl: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    imageUrls: [
+      '/assets/nsgm/image96.png', 
+      '/assets/nsgm/image28.jpg', 
+      '/assets/nsgm/image105.png'
+    ],
     technologies: ['PyTorch', 'Embedded Linux', 'C++'],
     projectUrl: '#',
     githubUrl: '#',
@@ -138,7 +153,7 @@ export const PROJECTS: Project[] = [
     id: 2,
     title: 'Violence Detection in YouTube Videos',
     description: 'Coded vision transformer (ViT) architecture from scratch and trained on diverse YouTube dataset, achieving 85% accuracy in real-world scenarios.',
-    imageUrl: 'https://images.unsplash.com/photo-1579167728798-a1cf3d595960?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    imageUrls: ['https://images.unsplash.com/photo-1579167728798-a1cf3d595960?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'],
     technologies: ['TensorFlow', 'OpenCV', 'FastAPI'],
     projectUrl: '#',
     githubUrl: '#',
@@ -148,7 +163,7 @@ export const PROJECTS: Project[] = [
     id: 3,
     title: 'OpenVINO Conjugate Transpose Operation',
     description: 'Implemented Conjugate Transpose operation in TensorFlow Frontend for Intel\'s OpenVINO and extended TF Frontend with corresponding loader.',
-    imageUrl: 'https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80',
+    imageUrls: ['https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80'],
     technologies: ['C++', 'Pytest', 'TensorFlow', 'OpenVINO'],
     projectUrl: '#',
     githubUrl: '#',
@@ -158,7 +173,7 @@ export const PROJECTS: Project[] = [
     id: 4,
     title: 'Arabic Speech Recognition System',
     description: 'Built an end-to-end Automatic Speech Recognition (ASR) system for Arabic language using Transformer architecture and achieved 12% WER.',
-    imageUrl: 'https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    imageUrls: ['https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'],
     technologies: ['Python', 'TensorFlow', 'NLP', 'Audio Processing'],
     projectUrl: '#',
     githubUrl: '#',
@@ -168,7 +183,7 @@ export const PROJECTS: Project[] = [
     id: 5,
     title: 'Cheating Detection in Online Exams',
     description: 'Developed a machine learning-based system to detect cheating in online examinations using mouse interaction patterns and achieved 90% accuracy.',
-    imageUrl: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    imageUrls: ['https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'],
     technologies: ['Python', 'XGBoost', 'LightGBM', 'Scikit-learn'],
     projectUrl: '#',
     githubUrl: '#',
@@ -178,7 +193,7 @@ export const PROJECTS: Project[] = [
     id: 6,
     title: 'LLM-based Product Search Engine',
     description: 'Developed a search engine using Large Language Models to improve relevance and user engagement for e-commerce product search.',
-    imageUrl: 'https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+    imageUrls: ['https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80'],
     technologies: ['Python', 'PyTorch', 'LLMs', 'Vector Search'],
     projectUrl: '#',
     githubUrl: '#',
@@ -343,9 +358,10 @@ export const PERSONAL_INFO = {
     primary: '(+971) 50 439 8923',
     secondary: '(+20) 1146631026'
   },
-  languages: 'Arabic (Native), English (Professional), German (Limited)',
-  shortBio: 'Transforming complex data into actionable insights through AI-powered solutions and deep learning innovations.',
-  longBio: `At Value Driven Data, my role as a Data Scientist combines my Computer Engineering background from Helwan University with cutting-edge machine learning and data analysis skills. Our team is committed to transforming complex data into actionable insights, developing AI-powered applications, and leading technical innovations that streamline the data analytics pipeline.
+  languages: 'English, Arabic',
+  shortBio: 'Passionate Data Scientist and Machine Learning Engineer with experience in developing impactful AI solutions across various industries.',
+  longBio: `A highly motivated Data Scientist and Machine Learning Engineer dedicated to developing and implementing innovative AI solutions. With a proven track record, I excel at tackling complex challenges and transforming data into actionable business intelligence. My expertise spans key areas including Natural Language Processing (NLP), Large Language Models (LLMs), time series analysis, and computer vision.
 
-With competencies in data analysis and web scraping, I thrive in creating machine learning and NLP solutions that drive business intelligence and decision-making processes. My experience spans across various industries, from smart grid technology to speech recognition and computer vision systems.`
+Possessing strong technical skills in Python, C++, TensorFlow, PyTorch, and essential data science libraries, I am proficient across the full machine learning lifecycle – from data acquisition and preprocessing to model development, fine-tuning, and deployment. My experience extends to cloud platforms like AWS and GCP, and data warehousing solutions such as Snowflake. I have applied these capabilities to diverse applications, including building recommendation systems, developing chatbots, forecasting, contributing to open-source projects like OpenVINO, and implementing specialized models like Vision Transformers and Variational Autoencoders. I am passionate about continuous learning and applying cutting-edge technology to drive innovation and solve real-world problems.`,
+  // Add other personal info fields as needed
 };

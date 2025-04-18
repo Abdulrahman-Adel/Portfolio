@@ -4,6 +4,13 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { motion } from 'framer-motion';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -56,22 +63,31 @@ export default function Projects() {
         </motion.div>
 
         {/* Projects Grid */}
+        {/* TEST IMAGE REMOVED */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project, index) => (
             <motion.div
               key={project.id}
+              className={index === 0 ? "lg:col-span-2" : ""}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * index }}
             >
-              <Card className="h-full bg-gray-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                <div className="h-48 bg-gray-200 relative">
-                  <img 
-                    src={project.imageUrl} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover"
-                  />
+              <Card className="flex flex-col bg-gray-100 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div className="h-48 flex-shrink-0 bg-gray-200 relative">
+                  {project.imageUrls && project.imageUrls.length > 0 ? (
+                    <img 
+                      src={project.imageUrls[0]} 
+                      alt={`${project.title} - Image 1`} 
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex items-center justify-center bg-gray-300 text-gray-500">
+                      No Image Available
+                    </div>
+                  )}
                   <div className="absolute top-3 right-3">
                     <Badge 
                       variant={
@@ -88,7 +104,7 @@ export default function Projects() {
                   </div>
                 </div>
                 
-                <CardContent className="p-6">
+                <CardContent className="p-6 flex-grow">
                   <h3 className="font-semibold text-xl mb-2">{project.title}</h3>
                   <p className="text-gray-700 mb-4">{project.description}</p>
                   

@@ -24,7 +24,7 @@ export interface Project {
   id: number;
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrls: string[];
   technologies: string[];
   projectUrl: string;
   githubUrl: string;
