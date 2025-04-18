@@ -79,7 +79,7 @@ export default function Projects() {
                 <div className="h-48 flex-shrink-0 bg-gray-200 relative">
                   {project.imageUrls && project.imageUrls.length > 0 ? (
                     <img 
-                      src={project.imageUrls[0]} 
+                      src={`${import.meta.env.BASE_URL}${project.imageUrls[0].startsWith('/') ? project.imageUrls[0].substring(1) : project.imageUrls[0]}`}
                       alt={`${project.title} - Image 1`} 
                       className="w-full h-full object-cover"
                     />
