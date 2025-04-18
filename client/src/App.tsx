@@ -1,11 +1,13 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, Router } from "wouter";
 import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import BlogIndexPage from "@/pages/BlogIndexPage";
 import BlogPostPage from "@/pages/BlogPostPage";
 
-function Router() {
+// No custom hook needed
+
+function AppRouter() {
   return (
     <Switch>
       <Route path="/" component={Home} />
@@ -17,11 +19,15 @@ function Router() {
 }
 
 function App() {
+  // Get base path from Vite's environment variables
+  const base = import.meta.env.BASE_URL;
+
   return (
-    <>
-      <Router />
+    // Use Router with the base prop
+    <Router base={base}>
+      <AppRouter />
       <Toaster />
-    </>
+    </Router>
   );
 }
 
