@@ -140,8 +140,8 @@ export const PROJECTS: Project[] = [
     title: 'Next Generation Smart-Grid Meter',
     description: 'Developed a deep learning model to forecast power consumption and implemented non-intrusive load monitoring using variational autoencoder.',
     imageUrls: [
-      '/assets/nsgm/image96.png', 
-      '/assets/nsgm/image28.jpg', 
+      '/assets/nsgm/image96.png',
+      '/assets/nsgm/image28.jpg',
       '/assets/nsgm/image105.png'
     ],
     technologies: ['PyTorch', 'Embedded Linux', 'C++'],
