@@ -64,7 +64,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <img 
-                src="/assets/profile.png" 
+                src={`${import.meta.env.BASE_URL}assets/profile.png`} 
                 alt="Profile Picture"
                 className="w-full h-full object-cover"
               />
