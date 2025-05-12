@@ -63,9 +63,11 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <div className="w-full h-full bg-gradient-to-r from-primary to-purple-500 flex items-center justify-center text-white text-4xl font-bold">
-                AA
-              </div>
+              <img 
+                src="/assets/profile.png" 
+                alt="Profile Picture"
+                className="w-full h-full object-cover"
+              />
             </motion.div>
           </div>
           
